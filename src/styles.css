@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(241, 241, 50, 0.322);
+  height: 2000px;
+  width: 500px;
+  max-height: 3000px;
+  max-width: 1000px;
+}
+
+.content {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(74, 32, 189);
+  background-color: rgb(232, 132, 202);
+  padding: 20px;
+}
+
+.element {
+  cursor: pointer;
+  user-select: none;
+  display: block;
+  word-wrap: break-word;
+  width: 100%;
+  background-color: #86a8ec6c;
+  padding: 10px;
+  margin: 10px;
+}
+
+.element.first {
+  pointer-events: none;
+}
